@@ -1,0 +1,676 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+D:\cd\8051\Project\C\uart_led7seg_lm35_100khz\main\ktl3.uvproj
+Project File Date:  12/01/2021
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(226): error C202: 'clk': undefined identifier
+MAIN.C(227): error C202: 'clk': undefined identifier
+MAIN.C(228): error C202: 'clk': undefined identifier
+MAIN.C(229): error C202: 'clk': undefined identifier
+MAIN.C(230): error C202: 'clk': undefined identifier
+MAIN.C(231): error C202: 'clk': undefined identifier
+MAIN.C(232): error C202: 'clk': undefined identifier
+MAIN.C(233): error C202: 'clk': undefined identifier
+MAIN.C(234): error C202: 'clk': undefined identifier
+MAIN.C(235): error C202: 'clk': undefined identifier
+MAIN.C(236): error C202: 'clk': undefined identifier
+MAIN.C(237): error C202: 'clk': undefined identifier
+MAIN.C(238): error C202: 'clk': undefined identifier
+MAIN.C(239): error C202: 'clk': undefined identifier
+MAIN.C(240): error C202: 'clk': undefined identifier
+MAIN.C(241): error C202: 'clk': undefined identifier
+MAIN.C(242): error C202: 'clk': undefined identifier
+MAIN.C(243): error C202: 'clk': undefined identifier
+MAIN.C(244): error C202: 'clk': undefined identifier
+MAIN.C(245): error C202: 'clk': undefined identifier
+MAIN.C(246): error C202: 'clk': undefined identifier
+MAIN.C(247): error C202: 'clk': undefined identifier
+MAIN.C(248): error C202: 'clk': undefined identifier
+MAIN.C(249): error C202: 'clk': undefined identifier
+MAIN.C(250): error C202: 'clk': undefined identifier
+MAIN.C(251): error C202: 'clk': undefined identifier
+MAIN.C(252): error C202: 'clk': undefined identifier
+MAIN.C(253): error C202: 'clk': undefined identifier
+MAIN.C(254): error C202: 'clk': undefined identifier
+MAIN.C(255): error C202: 'clk': undefined identifier
+MAIN.C(256): error C202: 'clk': undefined identifier
+MAIN.C(257): error C202: 'clk': undefined identifier
+MAIN.C(258): error C202: 'clk': undefined identifier
+MAIN.C(259): error C202: 'clk': undefined identifier
+MAIN.C(260): error C202: 'clk': undefined identifier
+MAIN.C(261): error C202: 'clk': undefined identifier
+MAIN.C(262): error C202: 'clk': undefined identifier
+MAIN.C(263): error C202: 'clk': undefined identifier
+MAIN.C(264): error C202: 'clk': undefined identifier
+MAIN.C(265): error C202: 'clk': undefined identifier
+MAIN.C(266): error C202: 'clk': undefined identifier
+MAIN.C(267): error C202: 'clk': undefined identifier
+MAIN.C(268): error C202: 'clk': undefined identifier
+MAIN.C(269): error C202: 'clk': undefined identifier
+MAIN.C(270): error C202: 'clk': undefined identifier
+MAIN.C(271): error C202: 'clk': undefined identifier
+MAIN.C(272): error C202: 'clk': undefined identifier
+MAIN.C(273): error C202: 'clk': undefined identifier
+MAIN.C(274): error C202: 'clk': undefined identifier
+MAIN.C(275): error C202: 'clk': undefined identifier
+MAIN.C(276): error C202: 'clk': undefined identifier
+MAIN.C(277): error C202: 'clk': undefined identifier
+MAIN.C(278): error C202: 'clk': undefined identifier
+MAIN.C(279): error C202: 'clk': undefined identifier
+MAIN.C(280): error C202: 'clk': undefined identifier
+MAIN.C(281): error C202: 'clk': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: data=28.0 xdata=0 code=510
+creating hex file from "ktl3"...
+"ktl3" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: data=28.0 xdata=0 code=510
+creating hex file from "ktl3"...
+"ktl3" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: data=28.0 xdata=0 code=510
+creating hex file from "ktl3"...
+"ktl3" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: data=28.0 xdata=0 code=508
+creating hex file from "ktl3"...
+"ktl3" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: data=28.0 xdata=0 code=508
+creating hex file from "ktl3"...
+"ktl3" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: data=28.0 xdata=0 code=513
+creating hex file from "ktl3"...
+"ktl3" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: data=28.0 xdata=0 code=510
+creating hex file from "ktl3"...
+"ktl3" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: data=28.0 xdata=0 code=508
+creating hex file from "ktl3"...
+"ktl3" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: data=28.0 xdata=0 code=507
+creating hex file from "ktl3"...
+"ktl3" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: data=28.0 xdata=0 code=400
+creating hex file from "ktl3"...
+"ktl3" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: data=28.0 xdata=0 code=396
+creating hex file from "ktl3"...
+"ktl3" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(115): warning C280: 'hundreds': unreferenced local variable
+MAIN.C(115): warning C280: 'dozens': unreferenced local variable
+MAIN.C(115): warning C280: 'units': unreferenced local variable
+MAIN.C(115): warning C280: 'channel': unreferenced local variable
+MAIN.C(115): warning C280: 'i': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_ADC0808_READ?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAYSCAN?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_TRANSMITDATA?MAIN
+Program Size: data=31.0 xdata=0 code=279
+creating hex file from "ktl3"...
+"ktl3" - 0 Error(s), 8 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(115): warning C280: 'hundreds': unreferenced local variable
+MAIN.C(115): warning C280: 'dozens': unreferenced local variable
+MAIN.C(115): warning C280: 'units': unreferenced local variable
+MAIN.C(115): warning C280: 'channel': unreferenced local variable
+MAIN.C(115): warning C280: 'i': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_ADC0808_READ?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAYSCAN?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_TRANSMITDATA?MAIN
+Program Size: data=31.0 xdata=0 code=283
+creating hex file from "ktl3"...
+"ktl3" - 0 Error(s), 8 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: data=28.0 xdata=0 code=400
+creating hex file from "ktl3"...
+"ktl3" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: data=28.0 xdata=0 code=403
+creating hex file from "ktl3"...
+"ktl3" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: data=28.0 xdata=0 code=400
+creating hex file from "ktl3"...
+"ktl3" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: data=28.0 xdata=0 code=400
+creating hex file from "ktl3"...
+"ktl3" - 0 Error(s), 0 Warning(s).
+compiling main.c...
+main.c - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=28.0 xdata=0 code=399
+creating hex file from "ktl3"...
+"ktl3" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(115): warning C280: 'hundreds': unreferenced local variable
+MAIN.C(115): warning C280: 'dozens': unreferenced local variable
+MAIN.C(115): warning C280: 'units': unreferenced local variable
+MAIN.C(115): warning C280: 'channel': unreferenced local variable
+MAIN.C(115): warning C280: 'i': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_ADC0808_READ?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAYSCAN?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_TRANSMITDATA?MAIN
+Program Size: data=31.0 xdata=0 code=282
+creating hex file from "ktl3"...
+"ktl3" - 0 Error(s), 8 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(115): warning C280: 'hundreds': unreferenced local variable
+MAIN.C(115): warning C280: 'dozens': unreferenced local variable
+MAIN.C(115): warning C280: 'units': unreferenced local variable
+MAIN.C(115): warning C280: 'channel': unreferenced local variable
+MAIN.C(115): warning C280: 'i': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_ADC0808_READ?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAYSCAN?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_TRANSMITDATA?MAIN
+Program Size: data=31.0 xdata=0 code=276
+creating hex file from "ktl3"...
+"ktl3" - 0 Error(s), 8 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(115): warning C280: 'hundreds': unreferenced local variable
+MAIN.C(115): warning C280: 'dozens': unreferenced local variable
+MAIN.C(115): warning C280: 'units': unreferenced local variable
+MAIN.C(115): warning C280: 'channel': unreferenced local variable
+MAIN.C(115): warning C280: 'i': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_ADC0808_READ?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAYSCAN?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_TRANSMITDATA?MAIN
+Program Size: data=31.0 xdata=0 code=282
+creating hex file from "ktl3"...
+"ktl3" - 0 Error(s), 8 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(115): warning C280: 'hundreds': unreferenced local variable
+MAIN.C(115): warning C280: 'dozens': unreferenced local variable
+MAIN.C(115): warning C280: 'units': unreferenced local variable
+MAIN.C(115): warning C280: 'channel': unreferenced local variable
+MAIN.C(115): warning C280: 'i': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_ADC0808_READ?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAYSCAN?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_TRANSMITDATA?MAIN
+Program Size: data=31.0 xdata=0 code=282
+creating hex file from "ktl3"...
+"ktl3" - 0 Error(s), 8 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(115): warning C280: 'hundreds': unreferenced local variable
+MAIN.C(115): warning C280: 'dozens': unreferenced local variable
+MAIN.C(115): warning C280: 'units': unreferenced local variable
+MAIN.C(115): warning C280: 'channel': unreferenced local variable
+MAIN.C(115): warning C280: 'i': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_ADC0808_READ?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAYSCAN?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_TRANSMITDATA?MAIN
+Program Size: data=31.0 xdata=0 code=282
+creating hex file from "ktl3"...
+"ktl3" - 0 Error(s), 8 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(115): warning C280: 'hundreds': unreferenced local variable
+MAIN.C(115): warning C280: 'dozens': unreferenced local variable
+MAIN.C(115): warning C280: 'units': unreferenced local variable
+MAIN.C(115): warning C280: 'channel': unreferenced local variable
+MAIN.C(115): warning C280: 'i': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_ADC0808_READ?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAYSCAN?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_TRANSMITDATA?MAIN
+Program Size: data=31.0 xdata=0 code=392
+creating hex file from "ktl3"...
+"ktl3" - 0 Error(s), 8 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(115): warning C280: 'hundreds': unreferenced local variable
+MAIN.C(115): warning C280: 'dozens': unreferenced local variable
+MAIN.C(115): warning C280: 'units': unreferenced local variable
+MAIN.C(115): warning C280: 'channel': unreferenced local variable
+MAIN.C(115): warning C280: 'i': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_ADC0808_READ?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAYSCAN?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_TRANSMITDATA?MAIN
+Program Size: data=31.0 xdata=0 code=389
+creating hex file from "ktl3"...
+"ktl3" - 0 Error(s), 8 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(115): warning C280: 'hundreds': unreferenced local variable
+MAIN.C(115): warning C280: 'dozens': unreferenced local variable
+MAIN.C(115): warning C280: 'units': unreferenced local variable
+MAIN.C(115): warning C280: 'channel': unreferenced local variable
+MAIN.C(115): warning C280: 'i': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_ADC0808_READ?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAYSCAN?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_TRANSMITDATA?MAIN
+Program Size: data=31.0 xdata=0 code=282
+creating hex file from "ktl3"...
+"ktl3" - 0 Error(s), 8 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(115): warning C280: 'hundreds': unreferenced local variable
+MAIN.C(115): warning C280: 'dozens': unreferenced local variable
+MAIN.C(115): warning C280: 'units': unreferenced local variable
+MAIN.C(115): warning C280: 'channel': unreferenced local variable
+MAIN.C(115): warning C280: 'i': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_ADC0808_READ?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAYSCAN?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_TRANSMITDATA?MAIN
+Program Size: data=31.0 xdata=0 code=282
+creating hex file from "ktl3"...
+"ktl3" - 0 Error(s), 8 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(124): warning C280: 'hundreds': unreferenced local variable
+MAIN.C(124): warning C280: 'dozens': unreferenced local variable
+MAIN.C(124): warning C280: 'units': unreferenced local variable
+MAIN.C(124): warning C280: 'channel': unreferenced local variable
+MAIN.C(124): warning C280: 'i': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_ADC0808_READ?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAYSCAN?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_TRANSMITDATA?MAIN
+Program Size: data=31.0 xdata=0 code=286
+creating hex file from "ktl3"...
+"ktl3" - 0 Error(s), 8 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(124): warning C280: 'hundreds': unreferenced local variable
+MAIN.C(124): warning C280: 'dozens': unreferenced local variable
+MAIN.C(124): warning C280: 'units': unreferenced local variable
+MAIN.C(124): warning C280: 'channel': unreferenced local variable
+MAIN.C(124): warning C280: 'i': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_ADC0808_READ?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAYSCAN?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_TRANSMITDATA?MAIN
+Program Size: data=31.0 xdata=0 code=280
+creating hex file from "ktl3"...
+"ktl3" - 0 Error(s), 8 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(122): warning C280: 'hundreds': unreferenced local variable
+MAIN.C(122): warning C280: 'dozens': unreferenced local variable
+MAIN.C(122): warning C280: 'units': unreferenced local variable
+MAIN.C(122): warning C280: 'channel': unreferenced local variable
+MAIN.C(122): warning C280: 'i': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_ADC0808_READ?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAYSCAN?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_TRANSMITDATA?MAIN
+Program Size: data=31.0 xdata=0 code=282
+creating hex file from "ktl3"...
+"ktl3" - 0 Error(s), 8 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(122): warning C280: 'hundreds': unreferenced local variable
+MAIN.C(122): warning C280: 'dozens': unreferenced local variable
+MAIN.C(122): warning C280: 'units': unreferenced local variable
+MAIN.C(122): warning C280: 'channel': unreferenced local variable
+MAIN.C(122): warning C280: 'i': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_ADC0808_READ?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAYSCAN?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SETUP_UART?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_TRANSMITDATA?MAIN
+Program Size: data=31.0 xdata=0 code=277
+creating hex file from "ktl3"...
+"ktl3" - 0 Error(s), 9 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(122): warning C280: 'hundreds': unreferenced local variable
+MAIN.C(122): warning C280: 'dozens': unreferenced local variable
+MAIN.C(122): warning C280: 'units': unreferenced local variable
+MAIN.C(122): warning C280: 'channel': unreferenced local variable
+MAIN.C(122): warning C280: 'i': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_ADC0808_READ?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAYSCAN?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SETUP_UART?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_TRANSMITDATA?MAIN
+Program Size: data=31.0 xdata=0 code=275
+creating hex file from "ktl3"...
+"ktl3" - 0 Error(s), 9 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(122): warning C280: 'hundreds': unreferenced local variable
+MAIN.C(122): warning C280: 'dozens': unreferenced local variable
+MAIN.C(122): warning C280: 'units': unreferenced local variable
+MAIN.C(122): warning C280: 'channel': unreferenced local variable
+MAIN.C(122): warning C280: 'i': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_ADC0808_READ?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAYSCAN?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SETUP_UART?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_TRANSMITDATA?MAIN
+Program Size: data=31.0 xdata=0 code=281
+creating hex file from "ktl3"...
+"ktl3" - 0 Error(s), 9 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(122): warning C280: 'hundreds': unreferenced local variable
+MAIN.C(122): warning C280: 'dozens': unreferenced local variable
+MAIN.C(122): warning C280: 'units': unreferenced local variable
+MAIN.C(122): warning C280: 'channel': unreferenced local variable
+MAIN.C(122): warning C280: 'i': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_ADC0808_READ?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAYSCAN?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SETUP_UART?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_TRANSMITDATA?MAIN
+Program Size: data=31.0 xdata=0 code=280
+creating hex file from "ktl3"...
+"ktl3" - 0 Error(s), 9 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SETUP_UART?MAIN
+Program Size: data=28.0 xdata=0 code=396
+creating hex file from "ktl3"...
+"ktl3" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SETUP_UART?MAIN
+Program Size: data=28.0 xdata=0 code=397
+creating hex file from "ktl3"...
+"ktl3" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(122): warning C280: 'hundreds': unreferenced local variable
+MAIN.C(122): warning C280: 'dozens': unreferenced local variable
+MAIN.C(122): warning C280: 'units': unreferenced local variable
+MAIN.C(122): warning C280: 'channel': unreferenced local variable
+MAIN.C(122): warning C280: 'i': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_ADC0808_READ?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAYSCAN?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_TRANSMITDATA?MAIN
+Program Size: data=31.0 xdata=0 code=283
+creating hex file from "ktl3"...
+"ktl3" - 0 Error(s), 8 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: data=28.0 xdata=0 code=400
+creating hex file from "ktl3"...
+"ktl3" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: data=28.0 xdata=0 code=397
+creating hex file from "ktl3"...
+"ktl3" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: data=28.0 xdata=0 code=399
+creating hex file from "ktl3"...
+"ktl3" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: data=28.0 xdata=0 code=393
+creating hex file from "ktl3"...
+"ktl3" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(121): warning C280: 'hundreds': unreferenced local variable
+MAIN.C(121): warning C280: 'dozens': unreferenced local variable
+MAIN.C(121): warning C280: 'units': unreferenced local variable
+MAIN.C(121): warning C280: 'i': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_ADC0808_READ?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAYSCAN?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_TRANSMITDATA?MAIN
+Program Size: data=30.0 xdata=0 code=283
+creating hex file from "ktl3"...
+"ktl3" - 0 Error(s), 7 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(121): warning C280: 'hundreds': unreferenced local variable
+MAIN.C(121): warning C280: 'dozens': unreferenced local variable
+MAIN.C(121): warning C280: 'units': unreferenced local variable
+MAIN.C(121): warning C280: 'channel': unreferenced local variable
+MAIN.C(121): warning C280: 'i': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_ADC0808_READ?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAYSCAN?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_TRANSMITDATA?MAIN
+Program Size: data=31.0 xdata=0 code=276
+creating hex file from "ktl3"...
+"ktl3" - 0 Error(s), 8 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(114): warning C280: 'hundreds': unreferenced local variable
+MAIN.C(114): warning C280: 'dozens': unreferenced local variable
+MAIN.C(114): warning C280: 'units': unreferenced local variable
+MAIN.C(114): warning C280: 'channel': unreferenced local variable
+MAIN.C(114): warning C280: 'i': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_ADC0808_READ?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAYSCAN?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_TRANSMITDATA?MAIN
+Program Size: data=31.0 xdata=0 code=390
+creating hex file from "ktl3"...
+"ktl3" - 0 Error(s), 8 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: data=28.0 xdata=0 code=507
+creating hex file from "ktl3"...
+"ktl3" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: data=28.0 xdata=0 code=400
+creating hex file from "ktl3"...
+"ktl3" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: data=28.0 xdata=0 code=400
+creating hex file from "ktl3"...
+"ktl3" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: data=28.0 xdata=0 code=430
+creating hex file from "ktl3"...
+"ktl3" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: data=28.0 xdata=0 code=430
+creating hex file from "ktl3"...
+"ktl3" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: data=28.0 xdata=0 code=430
+creating hex file from "ktl3"...
+"ktl3" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: data=28.0 xdata=0 code=435
+creating hex file from "ktl3"...
+"ktl3" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: data=28.0 xdata=0 code=475
+creating hex file from "ktl3"...
+"ktl3" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: data=28.0 xdata=0 code=495
+creating hex file from "ktl3"...
+"ktl3" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: data=28.0 xdata=0 code=515
+creating hex file from "ktl3"...
+"ktl3" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: data=28.0 xdata=0 code=511
+creating hex file from "ktl3"...
+"ktl3" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: data=28.0 xdata=0 code=507
+creating hex file from "ktl3"...
+"ktl3" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: data=28.0 xdata=0 code=505
+creating hex file from "ktl3"...
+"ktl3" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: data=28.0 xdata=0 code=510
+creating hex file from "ktl3"...
+"ktl3" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: data=28.0 xdata=0 code=507
+creating hex file from "ktl3"...
+"ktl3" - 0 Error(s), 0 Warning(s).

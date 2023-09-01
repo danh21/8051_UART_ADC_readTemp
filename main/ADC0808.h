@@ -12,7 +12,7 @@ sbit ADC0808_ALE = P3^5;	// address latch enable
 sbit ADC0808_START = P3^5;	// start conversion (1)
 sbit ADC0808_EOC = P3^6;	// end of conversion (1)
 //sbit ADC0808_OE = P3^4;	// output enable
-//sbit ADC0808_CLK = P1^7;	// clock
+sbit ADC0808_CLK = P2^5;	// clock
 
 
 

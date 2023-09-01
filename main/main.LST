@@ -1,4 +1,4 @@
-C51 COMPILER V9.01   MAIN                                                                  08/30/2023 21:30:20 PAGE 1   
+C51 COMPILER V9.01   MAIN                                                                  09/01/2023 22:25:15 PAGE 1   
 
 
 C51 COMPILER V9.01, COMPILATION OF MODULE MAIN
@@ -21,11 +21,11 @@ line level    source
   12          
   13          void setup_UART()
   14          {
-  15   1              TMOD = 0x20;    // enable timer1, auto reload
-  16   1              TH1 = -3;               // 9600 Baud rate
-  17   1              SCON = 0x50;    // 8 bit uart, 1 stopbit, REN enabled
-  18   1              TR1 = 1;                // start timer1
-  19   1              IE = 0x90;              // enable global, serial port interrupt                                                                                         
+  15   1              TMOD = 0x22;    // enable timer1, timer0, auto reload
+  16   1              IE = 0x92;              // enable global, serial port, timer interrupt
+  17   1              TH1 = -3;               // 9600 Baud rate
+  18   1              SCON = 0x50;    // 8 bit uart, receive enable
+  19   1              TCON = 0x50;    // start timer1, timer0                                                 
   20   1      }
   21          
   22          
@@ -46,58 +46,122 @@ line level    source
   37          
   38          
   39          
-  40          void transmitData(uchar Data)
+  40          void timer_int(void) interrupt 1
   41          {
-  42   1              SBUF = Data;
-  43   1              while (TI == 0);
-  44   1              TI = 0;
-  45   1      }
-  46          
-  47          
-  48          
-  49          void main()
-  50          {
-  51   1              uchar hundreds, dozens, units, channel, i;
-  52   1      
-  53   1              setup_UART();
-  54   1      
-  55   1              for (channel = 0; channel < 8; channel++)
-C51 COMPILER V9.01   MAIN                                                                  08/30/2023 21:30:20 PAGE 2   
+  42   1              ADC0808_CLK = ~ADC0808_CLK;
+  43   1              ADC0808_CLK = ~ADC0808_CLK;
+  44   1              ADC0808_CLK = ~ADC0808_CLK;
+  45   1              ADC0808_CLK = ~ADC0808_CLK;
+  46   1              ADC0808_CLK = ~ADC0808_CLK;
+  47   1              ADC0808_CLK = ~ADC0808_CLK;
+  48   1              ADC0808_CLK = ~ADC0808_CLK;
+  49   1              ADC0808_CLK = ~ADC0808_CLK;
+  50   1              ADC0808_CLK = ~ADC0808_CLK;
+  51   1              ADC0808_CLK = ~ADC0808_CLK;
+  52   1              ADC0808_CLK = ~ADC0808_CLK;
+  53   1              ADC0808_CLK = ~ADC0808_CLK;
+  54   1              ADC0808_CLK = ~ADC0808_CLK;
+  55   1              ADC0808_CLK = ~ADC0808_CLK;
+C51 COMPILER V9.01   MAIN                                                                  09/01/2023 22:25:15 PAGE 2   
 
-  56   1              { 
-  57   2                      for (i = 0; i < 30; i++)
-  58   2                      {
-  59   3                              Led7Seg_scan = led7seg_dig1;
-  60   3                              Led7Seg_data = dig[channel+1];
-  61   3                              on_DP;
-  62   3                              delayScan(500);
-  63   3      
-  64   3                              ADC0808_read(channel);
-  65   3      
-  66   3                              hundreds = ADC0808_DATA / 100;
-  67   3                              dozens = (ADC0808_DATA / 10) % 10;
-  68   3                              units = ADC0808_DATA % 10;
-  69   3                                         
-  70   3                              Led7Seg_scan = led7seg_dig2;
-  71   3                              Led7Seg_data = dig[hundreds];
-  72   3                              delayScan(500);
-  73   3      
-  74   3                              Led7Seg_scan = led7seg_dig3;
-  75   3                              Led7Seg_data = dig[dozens];
-  76   3                              delayScan(500);
-  77   3      
-  78   3                              Led7Seg_scan = led7seg_dig4;
-  79   3                              Led7Seg_data = dig[units];
-  80   3                              delayScan(500);                         
-  81   3                      }
-  82   2      
-  83   2                      transmitData(ADC0808_DATA);
-  84   2              }
-  85   1      }
+  56   1              ADC0808_CLK = ~ADC0808_CLK;
+  57   1              ADC0808_CLK = ~ADC0808_CLK;
+  58   1              ADC0808_CLK = ~ADC0808_CLK;
+  59   1              ADC0808_CLK = ~ADC0808_CLK;
+  60   1              ADC0808_CLK = ~ADC0808_CLK;
+  61   1              ADC0808_CLK = ~ADC0808_CLK;
+  62   1              ADC0808_CLK = ~ADC0808_CLK;
+  63   1              ADC0808_CLK = ~ADC0808_CLK;
+  64   1              ADC0808_CLK = ~ADC0808_CLK;
+  65   1              ADC0808_CLK = ~ADC0808_CLK;
+  66   1              ADC0808_CLK = ~ADC0808_CLK;
+  67   1              ADC0808_CLK = ~ADC0808_CLK;
+  68   1              ADC0808_CLK = ~ADC0808_CLK;
+  69   1              ADC0808_CLK = ~ADC0808_CLK;
+  70   1              ADC0808_CLK = ~ADC0808_CLK;
+  71   1              ADC0808_CLK = ~ADC0808_CLK;
+  72   1              ADC0808_CLK = ~ADC0808_CLK;
+  73   1              ADC0808_CLK = ~ADC0808_CLK;
+  74   1              ADC0808_CLK = ~ADC0808_CLK;
+  75   1              ADC0808_CLK = ~ADC0808_CLK;
+  76   1              ADC0808_CLK = ~ADC0808_CLK;
+  77   1              ADC0808_CLK = ~ADC0808_CLK;
+  78   1              ADC0808_CLK = ~ADC0808_CLK;
+  79   1              ADC0808_CLK = ~ADC0808_CLK;
+  80   1              ADC0808_CLK = ~ADC0808_CLK;
+  81   1              ADC0808_CLK = ~ADC0808_CLK;
+  82   1              ADC0808_CLK = ~ADC0808_CLK;
+  83   1              ADC0808_CLK = ~ADC0808_CLK;
+  84   1              ADC0808_CLK = ~ADC0808_CLK;
+  85   1              ADC0808_CLK = ~ADC0808_CLK;
+  86   1              ADC0808_CLK = ~ADC0808_CLK;
+  87   1              ADC0808_CLK = ~ADC0808_CLK;
+  88   1              ADC0808_CLK = ~ADC0808_CLK;
+  89   1              ADC0808_CLK = ~ADC0808_CLK;
+  90   1              ADC0808_CLK = ~ADC0808_CLK;
+  91   1              ADC0808_CLK = ~ADC0808_CLK;
+  92   1              ADC0808_CLK = ~ADC0808_CLK;
+  93   1              ADC0808_CLK = ~ADC0808_CLK;
+  94   1              ADC0808_CLK = ~ADC0808_CLK;
+  95   1              ADC0808_CLK = ~ADC0808_CLK;
+  96   1              ADC0808_CLK = ~ADC0808_CLK;
+  97   1              ADC0808_CLK = ~ADC0808_CLK;
+  98   1      }
+  99          
+ 100          
+ 101          
+ 102          void transmitData(uchar Data)
+ 103          {
+ 104   1              SBUF = Data;
+ 105   1              while (TI == 0);
+ 106   1              TI = 0;
+ 107   1      }
+ 108          
+ 109          
+ 110          
+ 111          void main()
+ 112          {
+ 113   1              uchar hundreds, dozens, units, channel, i;
+ 114   1      
+ 115   1              setup_UART();
+ 116   1      
+ 117   1              for (channel = 0; channel < 8; channel++)
+C51 COMPILER V9.01   MAIN                                                                  09/01/2023 22:25:15 PAGE 3   
+
+ 118   1              { 
+ 119   2                      for (i = 0; i < 30; i++)
+ 120   2                      {
+ 121   3                              Led7Seg_scan = led7seg_dig1;
+ 122   3                              Led7Seg_data = dig[channel+1];
+ 123   3                              on_DP;
+ 124   3                              delayScan(500);
+ 125   3      
+ 126   3                              ADC0808_read(channel);
+ 127   3      
+ 128   3                              hundreds = ADC0808_DATA / 100;
+ 129   3                              dozens = (ADC0808_DATA / 10) % 10;
+ 130   3                              units = ADC0808_DATA % 10;
+ 131   3                                         
+ 132   3                              Led7Seg_scan = led7seg_dig2;
+ 133   3                              Led7Seg_data = dig[hundreds];
+ 134   3                              delayScan(500);
+ 135   3      
+ 136   3                              Led7Seg_scan = led7seg_dig3;
+ 137   3                              Led7Seg_data = dig[dozens];
+ 138   3                              delayScan(500);
+ 139   3      
+ 140   3                              Led7Seg_scan = led7seg_dig4;
+ 141   3                              Led7Seg_data = dig[units];
+ 142   3                              delayScan(500);                         
+ 143   3                      }
+ 144   2      
+ 145   2                      transmitData(ADC0808_DATA);
+ 146   2              }
+ 147   1      }
 
 
 MODULE INFORMATION:   STATIC OVERLAYABLE
-   CODE SIZE        =    223    ----
+   CODE SIZE        =    337    ----
    CONSTANT SIZE    =   ----    ----
    XDATA SIZE       =   ----    ----
    PDATA SIZE       =   ----    ----
